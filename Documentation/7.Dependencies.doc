@@ -1,0 +1,19 @@
+Dependencies: These are essential packages that your project needs to function effectively. When you install a library using npm install <package-name>, it gets listed in the dependencies section of your package.json file. For example, if you use the moment module for time formatting, it will appear in the dependencies object with its version.
+
+Dev Dependencies: These packages are specific to the development environment. They include tools, libraries, or utilities helpful during development but not necessary for the production version of your application. For instance, bundlers like Webpack or Rollup fall into this category. They’re crucial for building your project but aren’t part of the final app.
+
+Peer Dependencies: These are packages that your project explicitly relies on, and their versions must match exactly. They’re not automatically installed by npm. A common example is react, which most projects require. If someone downloads your package, they’ll need the specified react version.
+
+To install nodemon as a development dependency for your Node.js project
+npm install --save-dev nodemon
+
+These lines will be added to your package.json
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+
+More Packages are installed here
+npm i express
+npm i @angular/cli
+
+ "@angular/cli": "^18.1.4",

@@ -1,0 +1,15 @@
+The module wrapper function is a crucial part of the module system. Before executing a module’s code, Node.js wraps it with a function that has the following structure:
+
+(function (exports, require, module, __filename, __dirname) {
+    // Module code goes here
+});
+
+Here’s what each parameter represents:
+
+exports: An object used to export values from the module.
+require: A function to load other modules.
+module: An object representing the current module.
+__filename: The absolute filename of the module.
+__dirname: The directory path of the module.
+
+This wrapping ensures that top-level variables declared with var, const, or let are scoped to the module rather than the global object. For example, the variable PI in a module remains private within that module. If you want to customize the module wrapper, you can modify the Module.wrap method
