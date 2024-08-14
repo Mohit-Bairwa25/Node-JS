@@ -1,0 +1,13 @@
+Browser (Client-Side):
+Environment: JavaScript in the browser runs within the web browser environment.
+DOM Access: It has access to the Document Object Model (DOM) and can interact with webpage elements (e.g., manipulating HTML, handling events).
+Web APIs: It can use browser-specific APIs (e.g., window, localStorage, fetch).
+Limitations: Limited to what the browser provides (no filesystem access, no server-side resources).
+
+Node.js (Server-Side):
+Environment: Node.js runs on the server side.
+No DOM: It lacks access to the DOM (no document, window objects).
+Server-Side APIs: Provides server-specific APIs (e.g., filesystem access, networking, database connections).
+Common Language: You can use the same language (JavaScript) for both frontend and backend development.
+Control Over Environment: You choose the Node.js version, enabling modern ES2015+ features.
+In summary, JavaScript in the browser focuses on user interface interactions, while Node.js extends its capabilities to server-side tasks and resource management.

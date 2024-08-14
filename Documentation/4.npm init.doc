@@ -1,0 +1,56 @@
+npm init
+
+The npm init command is used to set up a new or existing npm package. When you run npm init, it generates a package.json file for your project. This file contains metadata such as the project title, description, license, author, keywords, and other relevant information. Essentially, it helps you initialize your project and manage its dependencies. If you want to skip the questionnaire and create the package.json directly, you can use the -y flag: npm init -y.
+
+Press ^C at any time to quit.
+package name: (new-folder) Harry
+Sorry, name can no longer contain capital letters.
+package name: (new-folder) harry
+version: (1.0.0) Yes
+Invalid version: "Yes"
+version: (1.0.0) 2.0.0
+description: It is demo for question of (npm init)
+entry point: (index.js) index.js
+test command: what is a test command?
+git repository: no git repo
+keywords: What are key words
+author: author is harry
+license: (ISC) what is license
+Sorry, license should be a valid SPDX license expression (without "LicenseRef"), "UNLICENSED", or "SEE LICENSE IN <filename>".
+license: (ISC)
+About to write to C:\Users\mohit\Desktop\New folder\package.json:
+
+{
+  "name": "harry",
+  "version": "2.0.0",
+  "description": "It is demo for question of (npm init)",
+  "main": "index.js",
+  "scripts": {
+    "test": "what is a test command?"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no git repo"
+  },
+  "keywords": [
+    "What",
+    "are",
+    "key",
+    "words"
+  ],
+  "author": "author is harry",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+
+Package Name: The package name should be lowercase and without spaces. In your case, “harry” is a valid choice.
+Version: You provided “Yes,” which is not a valid version. You corrected it to “2.0.0,” which is appropriate.
+Description: You mentioned it’s a demo for the question of npm init. That’s fine!
+Entry Point: The default entry point is index.js, which is commonly used for Node.js projects. You can keep it as is or specify a different file if needed.
+Test Command: This is typically used for running tests (e.g., with a testing framework like Jest). If you’re not sure, you can leave it blank for now.
+Git Repository: You indicated there’s no Git repository. That’s okay; you can set it up later if needed.
+Keywords: Keywords help others find your package. You can add relevant keywords separated by commas (e.g., “react, redux, npm”).
+Author: You mentioned the author is “harry.” Perfect!
+License: You chose the ISC license. If you’re unsure, you can leave it as is or explore other licenses later.

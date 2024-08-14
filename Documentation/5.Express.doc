@@ -1,0 +1,14 @@
+Express
+Fast, unopinionated, minimalist web framework for Node.js
+
+npm install express --save
+
+After installing this package
+
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+
+these lines will be added in your package.json file and folder name node Module is created
+this folde should not be push to the git that is why we use gitignore file of react projects
+just copy past any react project .gitignore file

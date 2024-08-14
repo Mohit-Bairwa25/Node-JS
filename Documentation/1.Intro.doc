@@ -1,0 +1,12 @@
+https://nodejs.org/en/download/package-manager
+Download Node.js From above Link (LTS) Version For Windows
+
+To Check the Version of NodeJS
+node --version
+
+To Check the Version of NodeJS
+npm --version
+
+To Run a File
+node index.js 
+
