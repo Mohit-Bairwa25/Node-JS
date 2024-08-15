@@ -5,5 +5,11 @@ const harry = {
   developer: true,
 };
 
+const garry = {
+  name: "Garry",
+  fav: 9999,
+  developer: true,
+};
+
 // Export Using CommonJS
-module.exports = harry;
+module.exports = {harry, garry};
